@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seccion de contenido</title>
+  </head>
+
+  <body>
+    <!-- 
+       * section
+       Es un contenedor generico que agrupa contenido que esta relacionado con el contenido html.Cuando creamos bloques cuyo contenido es parte del bloque usaremos section.
+           
+    -->
+    <!-- 
+        *Article
+        Es un contenedor que representa un contenido relacionado pero que no forma parte del contenido principal.En el puede ir un mensaje de un foro, un articulo de una revista, un articulo de un periodico, una entrada de blog, un comentario de un usuario, un widget interactivo o un gadget.
+        Todo depende del contenido de nuestra pagina web.
+
+     -->
+    <!-- 
+         *aside
+         Se utiliza para representar contenido relacionado pero que no forma parte del contenido principal.En el puede ir las barras laterales, publicidad, la biografia del autor, en aplicaciones web la informacion de perfil o enlaces a blog relacionados con el temas de nuestra web.
+      -->
+    <!-- 
+          anidamiento
+          Un section puede contener un articles, por ejemplo, si tenemos varios articulos que hablan sobre etiquetas html, deben ir dentro de un section ya que es contenido relacionado entre si, y los article serian contenido independiente porque podriamos haber leido uno sin haber leido el resto y seguiria teniendo sentido.
+          El article es definido como un componente de la pagina de contenido independiente, esto implica que esta etiqueta pueda tener un header y un footer propios.
+          Tambien existe el casoen el que un article contenga varias secciones, el articulo independiente podrian ser navegadores y este contener dentro secciones, como navegadores mas utilizados en el 2021.  
+       -->
+    <header>
+      <h1>noticias nacionales</h1>
+    </header>
+    <main>
+      <section>
+        <h2>Noticias del dia</h2>
+        <article>
+          <header>
+            <h3>Epa colombia regala plata</h3>
+          </header>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem
+            explicabo amet accusantium fugiat? Iure illum quisquam beatae
+            pariatur ipsa dolorem labore officia porro perferendis? Odit quod
+            tempore tenetur at unde?
+          </p>
+          <footer>Escrito por:Juan Trujillo</footer>
+        </article>
+        <article>
+          <header>
+            <h3>Colegios regresan a la prresencialidad</h3>
+          </header>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+            voluptatum explicabo sapiente aliquam ea, adipisci at, nobis
+            architecto accusamus, nam nostrum quod corporis laborum. Iusto,
+            vitae voluptas. Cumque, ullam culpa?
+          </p>
+          <footer>Escrito por:Juan Trujillo</footer>
+        </article>
+      </section>
+
+      <section>
+        <h2>Noticias de Bogota</h2>
+        <section>
+          <h3>noticia del dia</h3>
+          <article>
+            <header>
+              <h4>Noticia 1</h4>
+            </header>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit
+              doloremque ut consequuntur dolorem non quisquam dolor tenetur
+              doloribus eum sint? Totam, dolorum voluptate! Eius atque cumque
+              distinctio illo, perspiciatis beatae!
+            </p>
+            <footer>Escrito por: Yohana Trujillo</footer>
+          </article>
+          <article>
+            <header>
+              <h4>Noticia 2</h4>
+            </header>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit
+              doloremque ut consequuntur dolorem non quisquam dolor tenetur
+              doloribus eum sint? Totam, dolorum voluptate! Eius atque cumque
+              distinctio illo, perspiciatis beatae!
+            </p>
+            <footer>Escrito por: Yohana Trujillo</footer>
+          </article>
+        </section>
+
+        <section>
+          <h3>Noticias importantes</h3>
+          <article>
+            <header>
+              <h4>Noticia 1</h4>
+            </header>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit
+              doloremque ut consequuntur dolorem non quisquam dolor tenetur
+              doloribus eum sint? Totam, dolorum voluptate! Eius atque cumque
+              distinctio illo, perspiciatis beatae!
+            </p>
+            <footer>Escrito por: Yohana Trujillo</footer>
+          </article>
+          <article>
+            <header>
+              <h4>Noticia 2</h4>
+            </header>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit
+              doloremque ut consequuntur dolorem non quisquam dolor tenetur
+              doloribus eum sint? Totam, dolorum voluptate! Eius atque cumque
+              distinctio illo, perspiciatis beatae!
+            </p>
+            <footer>Escrito por: Yohana Trujillo</footer>
+          </article>
+        </section>
+        <footer>26/12/2021</footer>
+      </section>
+    </main>
+    <footer>22/12/2021</footer>
+  </body>
+</html>
